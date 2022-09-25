@@ -236,6 +236,7 @@ body{
 #product1 .product .des{
     text-align: start;
     padding: 10px 0;
+    line-height: 20px;
 }
 
 #product1 .product .des span{
@@ -394,4 +395,236 @@ footer a:hover {
     line-height: 25px;
 }
 
+#page-header.sobre-header{
+    background-image: url("img/sobre/loja8.png");
+}
+
+#sobre-header{
+    display: flex;
+    align-items: center;
+}
+
+#sobre-header div{
+    padding-left: 40px;
+    line-height: 20px;
+}
+
+#sobre-header img{
+    width: 50%;
+    height: auto;
+}
+
+#page-header.contato-header{
+    background-image: url("img/sobre/loja8.png");
+}
+
+
+#dcontato{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#dcontato .detalhes{
+    width: 40%;
+}
+
+#dcontato .detalhes span,
+#fdetails form span{
+    font-size: 12px;
+}
+
+#dcontato .detalhes h2,
+#fdetails form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+
+}
+
+#dcontato .detalhes h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#dcontato .detalhes li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#dcontato .detalhes li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#dcontato .detalhes li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#dcontato .map{
+    width: 55%;
+    height: 400px;
+}
+
+#dcontato .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#fdetails{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 80px;    
+}
+
+#fdetails form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#fdetails form input,
+#fdetails form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#fdetails form button{
+    font-size: 16px;
+    background-color: rgb(211, 245, 225);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: 0;
+}
+
+#fdetails form button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+}
+
+#page-header.carrinho-header{
+    background-image: url("img/banner/loja8.png"); 
+}
+
+#carrinho table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#carrinho table img{
+    width: 70%;
+}
+
+#carrinho table td:nth-child(1){
+    width: 100%;
+    text-align: center;
+}
+
+#carrinho table td:nth-child(2){
+    width: 150%;
+    text-align: center;
+}
+
+#carrinho table td:nth-child(3){
+    width: 250%;
+    text-align: center;
+}
+
+#carrinho table td:nth-child(4),
+#carrinho table td:nth-child(5),
+#carrinho table td:nth-child(6){
+    width: 150%;
+    text-align: center;
+}
+
+#carrinho table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#carrinho table thead{
+    border: 1px solid #e1e1e1;
+    border-left: none;
+    border-right: none;
+}
+
+#carrinho table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#carrinho table tbody tr td{
+    padding-top: 15px;
+}
+
+#carrinho table tbody td{
+    font-size: 13px;
+}
+
+#carrinho-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cupom{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#cupom h3,
+#total h3{
+    padding-bottom: 15px;
+}
+
+#cupom input{
+    padding: 10px 20px;
+    outline: none;
+    width: 50%;
+    margin-right: 10px;
+    border: 1px solid #e1e1e1;
+}
+
+#cupom button,
+#total button{
+    font-size: 16px;
+    background-color: rgb(211, 245, 225);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: 0;
+}
+
+#total{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e1e1e1;
+    padding: 30px;
+}
+
+#total table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#total table td{
+    width: 50%;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    font-size: 13px;
+}
 

@@ -13,14 +13,14 @@
 <body>
     
     <section id="header">
-        <a href="#"><img src="img/logo2.png" width="150" height="75" class= "logo" alt=""></a>
+        <a href="#"><img src="img/logo2.png" width="150" height="75" class= "logo" alt="" onclick="window.location.href='index.html'"></a>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a class = "active" href="loja.html">Loja</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a href="carrinho.html"><i class="fa-thin fa-cart-shopping"></i></a></li>
+                <li><a href="carrinho.html"><i class="fas fa-shopping-bag"></i></a></li>
             </ul>
         </div>
     </section>
@@ -39,7 +39,6 @@
                 <option>6 unidades</option>
                 <option>10 unidades</option>
             </select>
-            <input type="number" value = "1">
             <button class="normal">Adicionar ao Carrinho</button>
             <h4>Detalhes do Produto</h4>
             <span>O cupcake tem massa de baunilha e recheio de morango.
@@ -51,53 +50,37 @@
         <h2>Clássicos da Kake</h2>
         <p>Receitas de doces tradiconais da casa</p>
         <div class="product-container">
-            <div class="product">
+            <div class="product" onclick="window.location.href='bolo-limao.html'">
                 <img src="img/products/cake10.png" alt="">
                 <div class="des">
                     <span>Kake</span>
                     <h5>Bolo de Limão Siciliano </h5>
-                    <div class="ing">
-                        <i class="fas fa-star"></i>
-                    </div>
                     <h4>R$150,00</h4>  
                 </div>
-                <a href="#"><i class= "fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="product">
+            <div class="product" onclick="window.location.href='bolo-cereja.html'">
                 <img src="img/products/cake7.png" alt="">
                 <div class="des">
                     <span>Kake</span>
                     <h5>Bolo de Cereja</h5>
-                    <div class="ing">
-                        <i class="fas fa-star"></i>
-                    </div>
                     <h4>R$200,00</h4>  
                 </div>
-                <a href="#"><i class= "fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="product">
+            <div class="product" onclick="window.location.href='brownie.html'">
                 <img src="img/products/brownie1.png" alt="">
                 <div class="des">
                     <span>Kake</span>
                     <h5>Brownie de Chocolate</h5>
-                    <div class="ing">
-                        <i class="fas fa-star"></i>
-                    </div>
                     <h4>R$20,00</h4>  
                 </div>
-                <a href="#"><i class= "fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="product">
+            <div class="product" onclick="window.location.href='bolo-goiaba.html'">
                 <img src="img/products/cake5.png" alt="">
                 <div class="des">
                     <span>Kake</span>
                     <h5>Bolo de Morango e Goiaba</h5>
-                    <div class="ing">
-                        <i class="fas fa-star"></i>
-                    </div>
                     <h4>R$150,00</h4>  
                 </div>
-                <a href="#"><i class= "fal fa-shopping-cart cart"></i></a>
             </div>
         </div>
     </section>
